@@ -51,11 +51,11 @@
 
 ## 💬 Support
 
-Need help? Reach out via [Aniq UI Contact Page](https://www.aniq-ui.com/#contact).
+Need help? Reach out via [Aniq UI Contact Page](https://www.anoshagasht.ir).
 
 ---
 
-Crafted with care by [Aniq UI](https://www.aniq-ui.com) — Premium Next.js Templates for fast, elegant websites.
+Crafted with care by [Aniq UI](https://www.anoshagasht.ir) — Premium Next.js Templates for fast, elegant websites.
 
 ---
 
