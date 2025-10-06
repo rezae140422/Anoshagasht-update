@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Installer</title>
+    <style>
+      body { font-family: Arial, Helvetica, sans-serif; padding: 2rem; }
+      label { display:block; margin-top: 1rem }
+      input[type=text], input[type=password], textarea { width:100%; padding:0.5rem }
+      button { margin-top:1rem; padding:0.6rem 1rem }
+    </style>
+  </head>
+  <body>
+    <h1>Site Installer</h1>
+    <p>Provide database credentials and optionally upload an SQL dump to import.</p>
+    <form method="post" action="/install" enctype="multipart/form-data">
+      <label>Database Host
+        <input type="text" name="dbHost" value="localhost" required />
+      </label>
+      <label>Database Port
+        <input type="text" name="dbPort" value="3306" required />
+      </label>
+      <label>Database Name
+        <input type="text" name="dbName" placeholder="example_db" required />
+      </label>
+      <label>Database User
+        <input type="text" name="dbUser" placeholder="dbuser" required />
+      </label>
+      <label>Database Password
+        <input type="password" name="dbPass" placeholder="password" />
+      </label>
+      <label>SQL Dump (optional)
+        <input type="file" name="sqlFile" accept=".sql" />
+      </label>
+      <button type="submit">Install / Import</button>
+    </form>
+  </body>
+</html>
